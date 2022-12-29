@@ -1,0 +1,30 @@
+
+This folder contains the following files
+
+ana.C
+inputs/DYJetsToLL_M-50.root
+inputs/TTTo2L2Nu.root
+nano9Ana.C
+nano9Ana.h
+and this README
+
+inputs/DYJetsToLL_M-50.root  is an input ntuple. It contains simulation events (270538 events, to be precise).
+
+As the name suggests it is simulation of a specific process,
+the Drell-Yan process. Plot dilepton invariant mass to see
+what the 50 is.
+
+The main code (which does analysis and fills histograms) is
+in the nano9Ana class. This class is declared and described in
+nanoAna9.h and nano9Ana.C
+
+ana.C is a driver script.
+
+After all editing is done, we run the code as follows
+
+> root -l
+
+[].L nano9Ana.C+
+[].x ana.C(0)
+
+This will produce output files hst_DY.root and sum_DY.txt
