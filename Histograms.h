@@ -79,7 +79,7 @@ void nano9Ana::BookHistograms()
   
   
    //Gen Muons
-  h.GenMu_StatusID = new TH1F("GenMu_status","genmu_status",10,0,10);
+  h.GenPart_StatusID = new TH1F("GenMu_status","genmu_status",10,0,10);
   h.GenMuprop[0] = new TH1F ("nGenMu","Number of GenMuons",10,0,10);
   h.GenMuprop[1] = new TH1F("GenMu_pT","GenMupT",200,0,200);
   h.GenMuprop[2] = new TH1F ("leading_GenMu_pt","Leading_GenMuon_pT",200,0,200);
