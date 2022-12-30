@@ -1866,7 +1866,7 @@ public:
     TH1F *Photonprop[20];
     TH1F *prachu[10];
     TH1F *Jet[20];
-    TH1F *GenMu_StatusID;
+    TH1F *GenPart_StatusID;
     TH1F *GenMuprop[20];
     TH1F *GenElectronprop[20];
     TH1F *Reso_leading_Pt[5];
